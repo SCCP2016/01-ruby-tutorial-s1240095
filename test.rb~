@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+
+puts ""
+x = gets
+puts "x=#{x}"

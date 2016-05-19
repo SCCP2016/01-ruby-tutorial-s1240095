@@ -3,10 +3,10 @@ loop{
   if h==0 && w==0 then
     break
   end
-  for i in 1..h do
-    arr=["#"]
-    arr *= w
-    puts arr.join
-  end
+  arr=["#"]
+  arr *= w
+  arr += ["\n"]
+  arr *=h
+  puts arr.join
   puts
 }

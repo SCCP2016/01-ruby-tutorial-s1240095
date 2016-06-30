@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+
+(1..10).each do |elem|
+puts elem
+end

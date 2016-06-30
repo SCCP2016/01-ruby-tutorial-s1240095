@@ -1,0 +1,4 @@
+p people.select{|item| item[:name][0]=="M"}
+p people.select{|item| item[:age]>=10 && item[:age]<20}
+p people.each_with_index{|item,index| people[index][:initial]=item[:name][0]}
+p people.each.inject(0){|sum,item| sum + item[:age]}
